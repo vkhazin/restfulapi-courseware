@@ -1,9 +1,9 @@
-# Swagger and Micro-services #
+# Swagger and Micro-Services #
 
 ## Description ##
 
 * Microservice architecture structures applications as a collection of loosely coupled services
-* More than 70 percent of companies want to intensify their usage of Micro-services in 2017 according to <a href="./media/leanIX_Microservices-Study.pdf" target="_blank"></a>
+* More than 70 percent of companies want to intensify their usage of Micro-services in 2017 according to <a href="./media/leanIX_Microservices-Study.pdf" target="_blank">leanIX study</a>
 * Motivations behind micro-services adoption:
   * improvement in IT agility by reducing risk of big-bang releases and/or re-tooling
   * easier development maintainability with simpler code base
@@ -12,7 +12,7 @@
 * Micro-service architecture is not a silver bullet - several drawbacks from real-world experience will be discussed
 * Swagger is the world’s largest framework for designing, generating code, and visualizing API's 
 * Micro-services is not a language specific pattern, mixing languages and tools is normal 
-* Micro-services may use http request/response or a message driven architecture
+* Micro-services may use http request/response or a message driven pattern
 * Docker containers greatly improve predictability of micro-services deployments
 * Public/Private Cloud PaaS (platform as a service) reduce TCO (total cost of ownership) specifically with micro-service architecture
 
@@ -21,7 +21,7 @@
 * Application Architects looking to familiarize themselves with micro-service architecture
 * Developers eager to get first hand experience building micro-services 
 * Operations looking to automate micro-services deployment and monitoring
-* DevOps eager to jump into the micro-services way of thinking
+* DevOps eager to jump into the modern software delivery mindset
 
 ## Course's Objectives ##
 * Analyze industry motivation for adopting micro-service architecture
@@ -34,79 +34,85 @@
 * Get familiar with public cloud PaaS DevOps model
 
 ## Prerequisites ##
-* Recent hands-on experience with Linux bash terminal
-
-* Familiarity with data formats: Json, Csv, Logs, etc.
-
-* Recent administrative and troubleshooting experience on Linux OS
-
-* Scripting and/or programming hands-on recent experience
+* Laptop with admin/root privileges to install required software
+* Recent hands-on programming and/or scripting experience
+* Software development, delivery, and operational experience 
+* Familiarity with software design and architecture patterns: Desktop, Web, Mobile, and Soa
+* Familiarity with git source control system
+* Exposure to Linux command line
+* Exposure to Public/Private cloud concepts
 
 ## Outline ##
 
-### Introduction to InfluxDb ###
-* Time series data and database
-* InfluxDb Terminology, basic concepts, implementation, setup, and basic operations
-* Design Insides and Trade-offs  
-* Comparison to Sql
-* Schema Design
-* Storage Engine
-* Enterprise Edition Cluster
+### Why Micro-Services and How-to ###
+* Software Architecture Patterns
+* Life cycle of applications
+* The more agile architecture the better
+* Cross platform and multi-tools reality
+* Scalability and spikes in load
+* From Monolith to Micro-Services
 
-### Writing Data ###
-* Overview of alternatives
-* Creating database
-* HTTP API
-* CLI (command-line interface)
-* Node.Js client library
+### RESTFull Web Service ###
+* Overview: REST vs. SOAP
+* RESTFull Maturity Model
+* Building an End-Point
+* Testing a Web Service
+* Documenting a Deliverable
 
-### Reading Data ###
-* Overview of alternatives
-* HTTP API
-* CLI (command-line interface)
-* Node.Js client library
+### Swagger Editor ###
+* Why Swagger?
+* First API Contract or Implementation?
+* Design and End-Point
+* Test API Design
 
-### Schema Design ###
-* Recommended Practices
-* Discouraged Practices
-* Data Granularity
-* Multi-purpose Data
+### Swagger UI ###
+* Installation & Configuration
+* Testing RESFull API
+* Common Pitfalls
 
-### Data Retention ###
-* Shard Groups
-* Down-sampling
-* Continuous Query
-* Retention Policy
+### Swagger Codegen ###
+* Code generation overview
+* Codegen command line
+* Generating code from spec
 
-### Telegraf ###
-* Collecting & reporting metrics
-* Architecture
-* Input Data Formats
-* Input plug-ins
-* Output Data Formats
-* Output plug-ins
+### Deployment to VM ###
+* Overview of options
+* Installing dependencies
+* Deploying artifacts
+* Upgrade strategies
 
-### Chronograf ###
-* Multi-purpose User Interface
-* Infrastructure Monitoring
-* Alert Management
-* ETL Jobs Monitoring
-* Database Management
+### Operation and Monitoring ###
+* Challenges with Micro-services
+* Configuration
+* Logs aggregation
+* Monitoring
 
-### Kapacitator ###
-* Data Processing Framework
-* Steaming data
-* Batch data
-* Data transformation
-* Writing user defined functions
-* Integration with external services
+### CD/CI Automation ###
+* Objectives and Goals
+* Building CD
+* Designing Unit Tests
+* Adding CI
 
-### Preparing for Production ###
-* Capacity planning
-* Hardware requirements
-* Cloud hosting
-* Docker Container
-* Monitoring and troubleshooting
-* Backup and Restore
+### Message Driven Services ###
+* Request/Response vs. Message Driven
+* Building a Message Driven Service
+* Selecting back-end
 
+### Running in a Container ###
+* Container vs. VM
+* Building Docker Image
+* Running Docker Container
+* Container Cluster
 
+### Running on PaaS ###
+* PaaS vs. Container vs. VM
+* Deploying to PaaS
+* Automated scalability
+* Troubleshooting tools
+
+### Summary ###
+* Best Practices
+* Anti-patterns
+* High Throughput
+* High Availability
+* Geo Co-Location
