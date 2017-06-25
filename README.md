@@ -7,7 +7,7 @@
 * Motivations behind micro-services adoption:
   * improvement in IT agility by reducing risk of big-bang releases and/or re-tooling
   * easier development maintainability with simpler code base
-  * easier operations automation for CD (continuous deployment) and for CI (continuous integration) due to reduced dependencies
+  * easier operation with automated CD (continuous deployment) and CI (continuous integration)
   * improved system resilience where failure of a service does not take down the entire system
 * Micro-service architecture is not a silver bullet - several drawbacks from real-world experience will be discussed
 * Swagger is the world’s largest framework for designing, generating code, and visualizing API's 
