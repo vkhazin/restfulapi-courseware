@@ -46,7 +46,7 @@
 
 ### Why Micro-Services and How-to ###
 * Software Architecture Patterns
-* Life cycle of applications
+* Life-cycle of an applications
 * The more agile architecture the better
 * Cross platform and multi-tools reality
 * Scalability and spikes in load
@@ -57,12 +57,12 @@
 * RESTFull Maturity Model
 * Building an End-Point
 * Testing a Web Service
-* Documenting a Deliverable
+* Documenting the Deliverable
 
 ### Swagger Editor ###
 * Why Swagger?
 * First API Contract or Implementation?
-* Design and End-Point
+* Design an End-Point
 * Test API Design
 
 ### Swagger UI ###
@@ -96,13 +96,13 @@
 ### Message Driven Services ###
 * Request/Response vs. Message Driven
 * Building a Message Driven Service
-* Selecting back-end
+* Selecting a back-end
 
 ### Running in a Container ###
 * Container vs. VM
 * Building Docker Image
 * Running Docker Container
-* Container Cluster
+* Cluster
 
 ### Running on PaaS ###
 * PaaS vs. Container vs. VM
@@ -113,6 +113,4 @@
 ### Summary ###
 * Best Practices
 * Anti-patterns
-* High Throughput
-* High Availability
-* Geo Co-Location
+* Lessons learned
