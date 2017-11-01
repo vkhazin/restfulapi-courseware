@@ -18,7 +18,7 @@
 
 ## Audience ##
 
-* Application Architects looking to familiarize themselves with micro-service architecture
+* Application Architects looking to familiarize themselves with micro-service architecture trade-offs compared to a soa and monolithic application architecture
 * Developers eager to get first hand experience building micro-services 
 * Operations looking to automate micro-services deployment and monitoring
 * DevOps eager to jump into the modern software delivery mindset
@@ -50,30 +50,15 @@
 * The more agile architecture the better
 * Cross platform and multi-tools reality
 * Scalability and spikes in load
-* From Monolith to Micro-Services
+* Compare Soa to Micro-Services
+* Compare Monolith to Micro-Services
 
 ### RESTFull Web Service ###
 * Overview: REST vs. SOAP
 * RESTFull Maturity Model
 * Building an End-Point
 * Testing a Web Service
-* Documenting the Deliverable
-
-### Swagger Editor ###
-* Why Swagger?
-* First API Contract or Implementation?
-* Design an End-Point
-* Test API Design
-
-### Swagger UI ###
-* Installation & Configuration
-* Testing RESFull API
-* Common Pitfalls
-
-### Swagger Codegen ###
-* Code generation overview
-* Codegen command line
-* Generating code from spec
+* Documenting the Deliverable to streamline adoption
 
 ### Deployment to VM ###
 * Overview of options
