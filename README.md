@@ -1,4 +1,4 @@
-# Micro-Services and Swagger #
+# Micro-Services #
 
 ## Description ##
 
@@ -10,7 +10,6 @@
   * easier operation with automated CD (continuous deployment) and CI (continuous integration)
   * improved system resilience where failure of a service does not take down the entire system
 * Micro-service architecture is not a silver bullet - several drawbacks from real-world experience will be discussed
-* Swagger is the world’s largest framework for designing, generating code, and visualizing API's 
 * Micro-services is not a language specific pattern, mixing languages and tools is normal 
 * Micro-services may use http request/response or a message driven pattern
 * Docker containers greatly improve predictability of micro-services deployments
@@ -27,7 +26,6 @@
 * Analyze industry motivation for adopting micro-service architecture
 * Draw a comparison between SOA (service-oriented architecture) and Micro-service architecture
 * Discover advantages and disadvantages of micro-services
-* Get familiar with Swagger tool set
 * Build micro-services using different languages
 * Implement http and message driven design patter
 * Experiment with deployment of micro-services using Docker
