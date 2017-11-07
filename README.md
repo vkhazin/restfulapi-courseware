@@ -2,34 +2,31 @@
 
 ## Description ##
 
-* Microservice architecture structures applications as a collection of loosely coupled services
-* More than 70 percent of companies want to intensify their usage of Micro-services in 2017 according to <a href="./media/leanIX_Microservices-Study.pdf" target="_blank">leanIX study</a>
-* Motivations behind micro-services adoption:
-  * improvement in IT agility by reducing risk of big-bang releases and/or re-tooling
-  * easier development maintainability with simpler code base
-  * easier operation with automated CD (continuous deployment) and CI (continuous integration)
-  * improved system resilience where failure of a service does not take down the entire system
-* Micro-service architecture is not a silver bullet - several drawbacks from real-world experience will be discussed
-* Micro-services is not a language specific pattern, mixing languages and tools is normal 
-* Micro-services may use http request/response or a message driven pattern
-* Docker containers greatly improve predictability of micro-services deployments
-* Public/Private Cloud PaaS (platform as a service) reduce TCO (total cost of ownership) specifically with micro-service architecture
+* RESTful API is an application program interface that uses HTTP/S requests to GET, PUT, POST and DELETE data
+* RESTful API is based on representational state transfer technology, an architectural style and approach to communications used in web services
+* REST Web services systems are used to access and manipulate textual representations of Web resources
+* RESTful web services are uniform and interoperable contrasted to language or platform specific API's
+* RESTful web service are often enough associated with Micro-Services architecture
+* RESTful architecture aims at breaking down monolithic application to series of individually deployed and loosely coupled components
+* New challenges arise with adoption of RESTful and Micro-services: automation of deployment and monitoring
+* RESTful services are odd to be designed deploy-able on-premises and on-the-cloud location-transparently
+* Docker containers greatly improve predictability of service deployment and portability between on-premises and on-the-cloud hosting options
+* Public/Private Cloud PaaS (platform as a service) and FaaS (function as a service) are aiming to further reduce total cost of ownership
 
 ## Audience ##
 
-* Application Architects looking to familiarize themselves with micro-service architecture trade-offs compared to a soa and monolithic application architecture
-* Developers eager to get first hand experience building micro-services 
-* Operations looking to automate micro-services deployment and monitoring
+* Application Architects looking to familiarize themselves with RESTful architecture trade-offs compared to a Soa and to monolithic application architecture
+* Developers eager to get first hand experience building RESTful services 
+* Operations looking to automate web services deployment and monitoring
 * DevOps eager to jump into the modern software delivery mindset
 
 ## Course's Objectives ##
-* Analyze industry motivation for adopting micro-service architecture
-* Draw a comparison between SOA (service-oriented architecture) and Micro-service architecture
-* Discover advantages and disadvantages of micro-services
-* Build micro-services using different languages
-* Implement http and message driven design patter
-* Experiment with deployment of micro-services using Docker
-* Get familiar with public cloud PaaS DevOps model
+* Analyze industry motivation for adopting RESTful architecture
+* Draw a comparison between Soa (service-oriented architecture) and RESTful architecture
+* Discover advantages and disadvantages of RESTful services
+* Build RESTful services using different approaches
+* Experiment with deployment of services using Docker
+* Get familiar with public cloud PaaS/FaaS DevOps model
 
 ## Prerequisites ##
 * Laptop with admin/root privileges to install required software
@@ -42,13 +39,13 @@
 
 ## Outline ##
 
-### Why Micro-Services and How-to ###
+### Why RESTful Services ###
 * Software Architecture Patterns
 * Life-cycle of an applications
 * The more agile architecture the better
 * Cross platform and multi-tools reality
 * Scalability and spikes in load
-* Compare Soa to Micro-Services
+* Compare Soa to RESTful
 * Compare Monolith to Micro-Services
 
 ### RESTFull Web Service ###
@@ -62,10 +59,10 @@
 * Overview of options
 * Installing dependencies
 * Deploying artifacts
-* Upgrade strategies
+* Versioning and Upgrade strategies
 
 ### Operation and Monitoring ###
-* Challenges with Micro-services
+* Challenges with RESTful services
 * Configuration
 * Logs aggregation
 * Monitoring
@@ -76,10 +73,11 @@
 * Designing Unit Tests
 * Adding CI
 
-### Message Driven Services ###
-* Request/Response vs. Message Driven
-* Building a Message Driven Service
-* Selecting a back-end
+### Swagger ###
+* Why Swagger?
+* First API Contract or Implementation?
+* Design an End-Point
+* Test API Design
 
 ### Running in a Container ###
 * Container vs. VM
@@ -87,9 +85,10 @@
 * Running Docker Container
 * Cluster
 
-### Running on PaaS ###
+### Running on PaaS & FaaS ###
 * PaaS vs. Container vs. VM
 * Deploying to PaaS
+* Deploying to FaaS
 * Automated scalability
 * Troubleshooting tools
 
