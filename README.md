@@ -8,13 +8,13 @@
 * RESTful web services are uniform and interoperable contrasted to language or platform specific API's
 * RESTful web service are often enough associated with Micro-Services architecture
 * RESTful architecture aims at breaking down monolithic application to series of individually deployed and loosely coupled components
-* New challenges arise with adoption of RESTful and Micro-services: automation of deployment and monitoring
-* RESTful services are odd to be designed deploy-able on-premises and on-the-cloud location-transparently
-* Docker containers greatly improve predictability of service deployment and portability between on-premises and on-the-cloud hosting options
-* Public/Private Cloud PaaS (platform as a service) and FaaS (function as a service) are aiming to further reduce total cost of ownership
+* RESTful services programming languages and frameworks
+* RESTful services are odd to be designed deploy-able on-premises and on-the-cloud, i.e. location-transparently
+* What to do when an end-point fails causing a chain reaction failure?
+* Automation of CD/CI are often listed as prerequisites to successful implementation of micro-services architecture 
+* Automation of Configuration Management and Service discovery are crucial for a long term success 
 
 ## Audience ##
-
 * Application Architects looking to familiarize themselves with RESTful architecture trade-offs compared to a Soa and to monolithic application architecture
 * Developers eager to get first hand experience building RESTful services 
 * Operations looking to automate web services deployment and monitoring
@@ -24,9 +24,10 @@
 * Analyze industry motivation for adopting RESTful architecture
 * Draw a comparison between Soa (service-oriented architecture) and RESTful architecture
 * Discover advantages and disadvantages of RESTful services
-* Build RESTful services using different approaches
-* Experiment with deployment of services using Docker
-* Get familiar with public cloud PaaS/FaaS DevOps model
+* Build RESTful services using different languages and frameworks
+* Setup continuous deployment and integration testing
+* Discuss configuration management options in comparison to each other
+* Get familiar with Service discovery
 
 ## Prerequisites ##
 * Laptop with admin/root privileges to install required software
@@ -35,13 +36,15 @@
 * Familiarity with software design and architecture patterns: Desktop, Web, Mobile, and Soa
 * Familiarity with git source control system
 * Exposure to Linux command line
-* Exposure to Public/Private cloud concepts
+
+## Course Duration
+3 or 4 days
 
 ## Outline ##
 
 ### Why RESTful Services ###
 * Software Architecture Patterns
-* Life-cycle of an applications
+* Life-cycle of an application
 * The more agile architecture the better
 * Cross platform and multi-tools reality
 * Scalability and spikes in load
@@ -50,28 +53,10 @@
 
 ### RESTFull Web Service ###
 * Overview: REST vs. SOAP
-* RESTFull Maturity Model
+* RESTful Maturity Model
 * Building an End-Point
 * Testing a Web Service
 * Documenting the Deliverable to streamline adoption
-
-### Deployment to VM ###
-* Overview of options
-* Installing dependencies
-* Deploying artifacts
-* Versioning and Upgrade strategies
-
-### Operation and Monitoring ###
-* Challenges with RESTful services
-* Configuration
-* Logs aggregation
-* Monitoring
-
-### CD/CI Automation ###
-* Objectives and Goals
-* Building CD
-* Designing Unit Tests
-* Adding CI
 
 ### Swagger ###
 * Why Swagger?
@@ -79,18 +64,30 @@
 * Design an End-Point
 * Test API Design
 
-### Running in a Container ###
-* Container vs. VM
-* Building Docker Image
-* Running Docker Container
-* Cluster
+### Languages and Frameworks
+* Overview of commonalities and differences
+* Lab to build RESTFFul end-point with few options compared
+* Versioning of End-Points
+* Resiliency by design
 
-### Running on PaaS & FaaS ###
-* PaaS vs. Container vs. VM
-* Deploying to PaaS
-* Deploying to FaaS
-* Automated scalability
-* Troubleshooting tools
+### CD/CI Automation ###
+* Objectives and Goals
+* Building CD
+* Designing Unit Tests
+* Adding CI
+
+### Operation and Monitoring ###
+* Challenges with RESTful services
+* Configuration
+* Logs aggregation
+* Monitoring
+* Wide spread failures
+
+### Service Discovery
+* How services locate each-other
+* How web/mobile applications locate services
+* What happens when a new version of service is released
+* Are there standards for a Service Discovery?
 
 ### Summary ###
 * Best Practices
