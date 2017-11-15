@@ -11,8 +11,6 @@
 * RESTful services programming languages and frameworks
 * RESTful services are odd to be designed deploy-able on-premises and on-the-cloud, i.e. location-transparently
 * What to do when an end-point fails causing a chain reaction failure?
-* Automation of CD/CI are often listed as prerequisites to successful implementation of micro-services architecture 
-* Automation of Configuration Management and Service discovery are crucial for a long term success 
 
 ## Audience ##
 * Application Architects looking to familiarize themselves with RESTful architecture trade-offs compared to a Soa and to monolithic application architecture
@@ -69,19 +67,6 @@
 * Lab to build RESTFFul end-point with few options compared
 * Versioning of End-Points
 * Resiliency by design
-
-### CD/CI Automation ###
-* Objectives and Goals
-* Building CD
-* Designing Unit Tests
-* Adding CI
-
-### Operation and Monitoring ###
-* Challenges with RESTful services
-* Configuration
-* Logs aggregation
-* Monitoring
-* Wide spread failures
 
 ### Service Discovery
 * How services locate each-other
