@@ -4,8 +4,8 @@
 
 * RESTful API is an application program interface that uses HTTP/S requests to GET, PUT, POST and DELETE data
 * RESTful API is based on representational state transfer technology, an architectural style and approach to communications used in web services
-* REST Web services systems are used to access and manipulate textual representations of Web resources
-* RESTful web services are uniform and interoperable contrasted to language or platform specific API's
+* REST Web services systems are used to access and alter textual representations of Web resources
+* RESTful web services are uniform and interoperable in contrast to language or platform specific API's
 * RESTful web service are often enough associated with Micro-Services architecture
 * RESTful architecture aims at breaking down monolithic application to series of individually deployed and loosely coupled components
 * RESTful services programming languages and frameworks
@@ -36,7 +36,7 @@
 * Exposure to Linux command line
 
 ## Course Duration
-3 or 4 days
+2 days
 
 ## Outline ##
 
@@ -52,15 +52,10 @@
 ### RESTFull Web Service ###
 * Overview: REST vs. SOAP
 * RESTful Maturity Model
+* Design an End-Point
 * Building an End-Point
 * Testing a Web Service
 * Documenting the Deliverable to streamline adoption
-
-### Swagger ###
-* Why Swagger?
-* First API Contract or Implementation?
-* Design an End-Point
-* Test API Design
 
 ### Languages and Frameworks
 * Overview of commonalities and differences
@@ -68,13 +63,24 @@
 * Versioning of End-Points
 * Resiliency by design
 
-### Service Discovery
+### Service Usage and Discovery
 * How services locate each-other
 * How web/mobile applications locate services
 * What happens when a new version of service is released
 * Are there standards for a Service Discovery?
 
+### Configuration Management
+* Where to store service configuration
+* How to manage configurations
+* How often service should refresh its configuration
+* How clients should discover new end-point for a service
+
+### Monitoring and Resilience
+* How to prevent wide spread outages
+* Options for service monitoring
+* Designing service or resilience
+
 ### Summary ###
 * Best Practices
-* Anti-patterns
+* Anti-patterns, e.g. data store shared between services
 * Lessons learned
